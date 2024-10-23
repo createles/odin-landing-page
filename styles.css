@@ -1,0 +1,193 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+#maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#secondarytext, .link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#logotext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#signupbutton, #call {
+    background-color: #3882F6;
+}
+
+#infotitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topper {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.banner {
+    display: flex;
+    margin: 80px 0px;
+}
+
+.bannerleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration {
+    background-color: white;
+    margin: 100px;
+}
+
+.regleft {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer {
+    display: flex;
+}
+
+.topperright {
+    display: flex;
+    margin-left: auto;
+}
+
+.link {
+    margin: 12px;
+}
+
+#signupbutton {
+    border-radius: 10px;
+    padding: 10px 8px;
+    text-align: center;
+    max-width: 120px;
+    color: white;
+    font-weight: bolder;
+}
+
+.placeholder {
+    background-color: #ada9adb4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+#infotitle {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.square {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.itemcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.squarecontainer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.desccontainer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.imagedesc {
+    max-width: 100px;
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+}
+
+.quote {
+    padding: 150px;
+}
+
+#author {
+    text-align: right;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.regtangle {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+#signupbuttonreg {
+    border-radius: 10px;
+    padding: 10px 8px;
+    text-align: center;
+    width: 120px;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+#call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    color: white;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
