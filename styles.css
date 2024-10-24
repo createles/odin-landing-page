@@ -3,12 +3,24 @@ body {
     margin: 0;
 }
 
+.header, .itemcontainer, .quotebox {
+    padding: 0px 150px;
+}
+
 .header, .footer {
     background-color: #1F2937;
 }
 
-.quote {
+.quotebox {
     background-color: #E5E7EB;
+    padding: 120px;
+    display: flex;
+    gap: 40px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
 }
 
 #maintext {
@@ -42,28 +54,39 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1F2937
+    color: #1F2937;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .topper {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .banner {
     display: flex;
-    margin: 80px 0px;
+    margin-top: 15px;
+    margin-bottom: 120px;
+    gap: 30px;
+    height: 220px;
+}
+
+#secondarytext {
+    margin-bottom: 15px;
 }
 
 .bannerleft {
     display: flex;
     flex-direction: column;
+    max-width: 500px;
 }
 
 .items {
@@ -89,6 +112,7 @@ body {
 .topperright {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 
 .link {
@@ -105,7 +129,6 @@ body {
 }
 
 .placeholder {
-    background-color: #ada9adb4;
     color: white;
     display: flex;
     align-items: center;
@@ -123,11 +146,17 @@ body {
     border-radius: 10px;
     width: 150px;
     height: 150px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .itemcontainer {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .squarecontainer {
@@ -139,18 +168,15 @@ body {
 .desccontainer {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .imagedesc {
-    max-width: 100px;
+    max-width: 150px;
     text-align: center;
     color: grey;
     font-weight: 400;
-}
-
-.quote {
-    padding: 150px;
+    justify-self: center;
 }
 
 #author {
@@ -158,6 +184,7 @@ body {
     color: #1F2937;
     font-weight: 900;
     font-size: 25px;
+    padding-left: 100px;
 }
 
 .regtangle {
@@ -191,3 +218,26 @@ body {
     justify-content: center;
 }
 
+#quotetext, #author {
+    max-width: 800px;
+}
+
+#bmw {
+    width: 400px;
+    background-color: #ada9ad94;
+    padding: 10px;
+}
+
+.bike {
+    width: 250px;
+    object-fit: cover;
+}
+
+#quoteimg {
+    width: 200px;
+    border-radius: 30px;
+}
+
+#scofflogo {
+    width: 200px;
+}
